@@ -1,0 +1,9 @@
+:root {
+    --deep-twilight: #03045eff;
+    --bright-teal-blue: #0077b6ff;
+    --turquoise-surf: #00b4d8ff;
+    --frosted-blue: #90e0efff;
+}
+body{
+    background: var(--frosted-blue)
+}
