@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Passero+One&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --deep-twilight: #03045eff;
     --bright-teal-blue: #0077b6ff;
@@ -17,4 +22,12 @@ header{
     display: flex;
     justify-content: space-between;
     color: var(--turquoise-surf);  
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 10px;
+    color: var(--bright-teal-blue);
+    text-transform: uppercase;
 }
